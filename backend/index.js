@@ -5,8 +5,7 @@ const cors = require("cors");
 const fileApi = require("./modules/fileAPI");
 
 const s3client = new S3({
-    accessKeyId: "AKIAJTWZC7GUYB4IQJ7Q",
-    secretAccessKey: "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",
+ 
     params: {
         Bucket: "dss-blr"
     }
