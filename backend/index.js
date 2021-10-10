@@ -5,9 +5,6 @@ const cors = require("cors");
 const fileApi = require("./modules/fileAPI");
 
 const s3client = new S3({
-    params: {
-        Bucket: "dss-blr"
-    }
 });
 
 const app = express();
